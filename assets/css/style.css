@@ -750,11 +750,11 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item img:hover { filter: grayscale(1); }
 
 
 
@@ -848,7 +848,7 @@ main {
   margin-bottom: 8px;
 }
 
-.skill .title-wrapper data {
+.awards {
   color: var(--light-gray);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
@@ -1726,8 +1726,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* service */
 
   .service-list {
-    grid-template-columns: 1fr 1fr;
-    gap: 20px 25px;
+    /* grid-template-columns: 1fr 1fr;
+    gap: 20px 25px; */
   }
 
   /* testimonials */
